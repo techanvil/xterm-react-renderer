@@ -2,6 +2,8 @@ import { Terminal } from 'xterm';
 
 import Cursor from './Cursor';
 
+import { setupSocket } from '@techanvil/webssh2/app/client/src/js/setupSocket'
+
 /**
  * Root is used when calling the custom `render()` method
  * (found in xterm-renderer/render/index.js)
@@ -17,6 +19,8 @@ class Root {
     this.position = [1, 1];
 
     this.children = [];
+
+    setupSocket(this.root);
   }
 
   _moveToCursorOrEndOfInput() {
