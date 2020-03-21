@@ -99,7 +99,7 @@ class Terminal extends Component<Props, State> {
     // we use term.on('key) to detect backspace and enter presses
     // as we can't do this with React's events (they get overriden by xtermjs)
     term.on('key', (key: string) => {
-      const keyCode = key.charCodeAt(0);
+      /*const keyCode = key.charCodeAt(0);
 
       if (keyCode === 127) {
         // delete character
@@ -113,7 +113,7 @@ class Terminal extends Component<Props, State> {
       if (keyCode === 27 || keyCode === 9) {
         // prevent arrow keys or tab character
         return;
-      }
+      }*/
 
       this.props.onKeyDown(key);
     });

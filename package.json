@@ -1,7 +1,7 @@
 {
   "name": "xterm-react-renderer",
   "version": "0.0.1-1",
-  "main": "dist/demo/DemoTerminal.js",
+  "main": "dist/renderer/index.js",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
