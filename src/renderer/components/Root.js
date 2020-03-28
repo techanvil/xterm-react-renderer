@@ -2,7 +2,7 @@ import { Terminal } from 'xterm';
 
 import Cursor from './Cursor';
 
-import { setupSocket } from '@techanvil/webssh2/app/client/src/js/setupSocket'
+import { setupSocket } from '@techanvil/webssh2/client/src/js/setupSocket'
 
 /**
  * Root is used when calling the custom `render()` method
