@@ -1,6 +1,6 @@
 {
   "name": "@techanvil/xterm-react-renderer",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "dist/renderer/index.js",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -25,11 +25,11 @@
     "webpack": "^4.30.0"
   },
   "dependencies": {
-    "@techanvil/webssh2": "^0.3.2",
+    "@techanvil/webssh2": "^0.3.3",
+    "fbjs": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-reconciler": "^0.20.4",
-    "fbjs": "^1.0.0",
     "xterm": "^3.12.2"
   },
   "peerDependencies": {
