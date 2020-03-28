@@ -1,6 +1,6 @@
 {
   "name": "@techanvil/xterm-react-renderer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/renderer/index.js",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -18,19 +18,19 @@
     "eslint-plugin-flowtype": "^3.7.0",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "fbjs": "^1.0.0",
     "flow-bin": "^0.97.0",
     "prettier": "^1.17.0",
-    "react-reconciler": "^0.20.4",
     "react-styleguidist": "^9.0.9",
     "style-loader": "^0.23.1",
-    "webpack": "^4.30.0",
-    "xterm": "^3.12.2"
+    "webpack": "^4.30.0"
   },
   "dependencies": {
     "@techanvil/webssh2": "^0.3.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-reconciler": "^0.20.4",
+    "fbjs": "^1.0.0",
+    "xterm": "^3.12.2"
   },
   "peerDependencies": {
     "react": "^16.8.6",
