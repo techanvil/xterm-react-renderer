@@ -1,6 +1,6 @@
 {
   "name": "@techanvil/xterm-react-renderer",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "main": "dist/renderer/index.js",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
