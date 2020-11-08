@@ -25,7 +25,7 @@
     "webpack": "^4.30.0"
   },
   "dependencies": {
-    "@techanvil/webssh2": "git+https://github.com/techanvil/webssh2.git#term-size-fix-0.1",
+    "@techanvil/webssh2": "^0.4.0",
     "fbjs": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
