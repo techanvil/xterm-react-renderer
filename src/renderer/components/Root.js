@@ -20,7 +20,9 @@ class Root {
 
     this.children = [];
 
-    setupSocket(this.root);
+    setTimeout(() => {
+      setupSocket(this.root);
+    }, 500);
   }
 
   _moveToCursorOrEndOfInput() {
