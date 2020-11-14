@@ -27,6 +27,7 @@ function setupTerminal(
 
   if (options) {
     options.theme && term.setOption('theme', options.theme);
+    options.fontSize && term.setOption('fontSize', options.fontSize);
     options.fontFamily && term.setOption('fontFamily', options.fontFamily);
   }
   return {

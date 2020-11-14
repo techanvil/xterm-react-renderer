@@ -20,6 +20,7 @@ type Props = {
   onKeyDown: string => void,
   value: string,
   theme?: Theme,
+  fontSize?: number,
   fontFamily?: string,
   children: Node
 };
@@ -86,6 +87,7 @@ class Terminal extends Component<Props, State> {
 
     const { container, terminal } = setupTerminal(this.wrapper, {
       theme: this.props.theme,
+      fontSize: this.props.fontSize,
       fontFamily: this.props.fontFamily
     });
     this.container = container;
